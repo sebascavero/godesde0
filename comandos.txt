@@ -3,3 +3,9 @@ go build main.go => para crear ejecutables .exe del archivo main.go
 go run main.go => Ejecutar archivo main.go
 
 git status => ver estado del código (nuevos cambios)
+
+git add . => agregar los nuevos cambios al commit
+
+git commit -m "descripción" => juntar todo en un commit listo para subir 
+
+git push => subir los nuevos cambios al repositorio
