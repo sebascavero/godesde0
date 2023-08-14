@@ -1,0 +1,5 @@
+go build main.go => para crear ejecutables .exe del archivo main.go
+
+go run main.go => Ejecutar archivo main.go
+
+git status => ver estado del código (nuevos cambios)
