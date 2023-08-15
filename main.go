@@ -1,9 +1,15 @@
 package main
 
 //fmt: para poder escribir en la consola
-import "github.com/sebascavero/godesde0/variables"
+import (
+	"fmt"
+
+	"github.com/sebascavero/godesde0/variables"
+)
 
 func main() {
 
-	variables.RestoVariables()
+	estado, texto := variables.ConviertoATexto(1588)
+	fmt.Println(estado)
+	fmt.Println(texto)
 }

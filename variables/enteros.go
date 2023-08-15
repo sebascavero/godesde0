@@ -10,13 +10,14 @@ func MuestroEnteros() {
 
 	//Declaración por asignación
 	var intcomun int
+	intcomun = 20
+
+	//Declaracion y asignación
 	intde32 := int32(10)
 	intde64 := int64(100)
 
 	fmt.Println("intcomun = ", intcomun)
 	fmt.Println("intde32 = ", intde32)
 	fmt.Println("intde64 = ", intde64)
-
-	//Declaración por
 
 }
